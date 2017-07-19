@@ -18,5 +18,7 @@ We trust, that perfect solution for interesting mathematical games forms balance
 * transaperncy of source code
 * programm performance
 
+Our purpose is to play with this balance keeping resulting code as transparent as possible when solving diferent kind of math games
+
 
 ## List of publications
