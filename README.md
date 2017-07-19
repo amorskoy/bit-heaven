@@ -4,6 +4,7 @@ Place to play with algorithms, data structures, modeling and distributed calcs w
 
 ## Members 
 Andrey Morskoy - Scala developer
+
 Oleg Pashun - Python developer
 
 ## List of publications
