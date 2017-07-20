@@ -10,19 +10,11 @@ object NormalTypeQueue {
 
     val sz = szLine.toLong
     var data = dataLine.split(" ").map(_.toLong)
-    val ndv = data.distinct.length
 
     val iData = data.zipWithIndex
     val grp = iData.groupBy { case (v, i) => v }
-    val gData = grp.map { case (v, t) => t.map(_._2) }.toArray
 
     var cnt = 0L
-
-    val TO_LEFT = 0
-    val TO_RIGHT = 1
-    val LOG_THRESH = 10
-
-    var left = 0L
 
     val heapMap = new mutable.HashMap[Long, mutable.Queue[Int]]()
     grp
